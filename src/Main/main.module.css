@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.principeWork{
+    position: relative;
+    width: 338px;
+    height: 56px;
+    top:80px;
+    left:clamp(3.25rem, -5.975rem + 46.13vw, 49.375rem);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+.IconDiv{
+    position: relative;
+    left:clamp(1.25rem, -12.583rem + 28.82vw, 22rem);
+    top:197px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:clamp(44.875rem, 24.125rem + 43.23vw, 76rem);
+}
+.iconsDivFont1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.iconsDivFont2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:rgba(94, 100, 106, 1)
+}
+.miniDiv{
+    width: 280px;
+    height: 164px;
+}
+.thirdBlock{
+    width:clamp(18rem, 6.4rem + 58vw, 76rem);
+    left:clamp(1rem, -3.2rem + 21vw, 22rem);
+    position: relative;
+    display: flex;
+    top:331px;
+    align-items: center
+}
+.niceP{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    color: rgba(25, 28, 31, 1);
+}
+.static{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color:rgba(94, 100, 106, 1);
+    margin-top: 20px;
+}
+.otzivMainDiv{
+    position: relative;
+    top:528px;
+    width:100vw;
+    background-color: rgba(246, 248, 250, 1);
+    height:564px;
+}
+.otzivP{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    top:57px;
+    position: relative;
+}
+.otzivReg{
+    background-color: white;
+    width:341px;
+    height:316px;
+}
+.otzivi{
+    display: flex;
+    top:113px;
+    position: relative;
+    margin-bottom: 103px;
+    width:clamp(46.063rem, 25.188rem + 43.49vw, 77.375rem);
+    left:clamp(1.313rem, -12.021rem + 27.78vw, 21.313rem);
+    justify-content: space-between;
+    align-items: center;
+}
+.otziviLeft{
+    display: flex;
+    top:113px;
+    position: relative;
+    margin-bottom: 103px;
+    width:clamp(46.063rem, 25.188rem + 43.49vw, 77.375rem);
+    left:clamp(1.313rem, -12.021rem + 27.78vw, 21.313rem);
+    justify-content: space-between;
+    align-items: center;
+}
+.otziviRight{
+    display: flex;
+    top:113px;
+    position: relative;
+    margin-bottom: 103px;
+    width:clamp(46.063rem, 25.188rem + 43.49vw, 77.375rem);
+    left:clamp(1.313rem, -12.021rem + 27.78vw, 21.313rem);
+    justify-content: space-between;
+    align-items: center;
+}
+.arrowLeft{
+    width: 31px;
+    height: 31px;
+    border-top: 1px solid rgba(194, 200, 205, 1);
+    border-right: 1px solid rgba(194, 200, 205, 1);
+    transform: rotate(-135deg);
+    margin-left: 51px;
+    cursor: pointer;
+}
+.arrowLeft:hover, .arrowRight:hover{
+    border-top: 1px solid rgba(42, 108, 234, 1);
+    border-right: 1px solid rgba(42, 108, 234, 1);
+}
+.arrowRight{
+    width: 31px;
+    height: 31px;
+    border-top: 1px solid rgba(194, 200, 205, 1);
+    border-right: 1px solid rgba(194, 200, 205, 1);
+    transform: rotate(45deg);
+    margin-right: 51px;
+    cursor: pointer;
+}
+.otzivMenu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+.menuDiv{
+    width: 297px;
+    height: 68px;
+    margin-top: 22px;
+    margin-left: 22px;
+    display: flex;
+}
+.otzivName{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color:rgba(25, 28, 31, 1);
+}
+.oyzivCity{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color:rgba(94, 100, 106, 1);
+}
+.menuDesc{
+    width: 297px;
+    height: 144px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 22px;
+}
+.smallDots{
+    width: 108px;
+    height: 8px;
+    top: 530px;
+    left: clamp(20.625rem, -3.083rem + 49.39vw, 56.188rem);
+    position: absolute;
+    display: flex;
+    justify-content: space-between
+}
+.smalldot{
+    width: 8px;
+    height: 8px;
+    background-color: rgba(194, 200, 205, 1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.blueSmallDot{
+    width: 8px;
+    height: 8px;
+    background: rgba(42, 108, 234, 1);
+    border-radius: 50%;
+}
+.questions{
+    position: relative;
+    top:646px;
+    width:clamp(18rem, 9rem + 45vw, 63rem);
+    height:clamp(49.5rem, 41.8rem + 38.5vw, 88rem);
+    left:clamp(1.25rem, -16.917rem + 37.85vw, 28.5rem); 
+}
+.questionsAndAns{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+.questionsDiv{
+    margin-top: 41px;
+}
+.questPDiv{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.plusWCircle{
+    width:24px;
+    height:24px;
+    border: 2px solid rgba(25, 28, 31, 1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.miniquestionsPDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.miniquestionsDiv{
+    border-bottom: rgba(246, 248, 250, 1) 2px solid;
+    border-top: rgba(246, 248, 250, 1) 2px solid;
+}
+.additionalKnow{
+    margin-top: 210px;
+    background: rgba(246, 248, 250, 1);
+    display: flex;
+    justify-content: center;
+}
+.middleDiv{
+    width:clamp(20rem, 8.8rem + 56vw, 76rem);
+    height:527px;
+    margin-bottom: clamp(1.25rem, 0.663rem + 2.94vw, 4.188rem);
+    padding-top: clamp(1.25rem, -0.75rem + 4.17vw, 4.25rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}   
+.firstFont{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(25, 28, 31, 1);
+}
+.secondFont{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(25, 28, 31, 1);
+    margin-top: 17px;
+    margin:0px;
+}
+.midlemidleDIv{
+    width:590px;
+}
+.form{
+    left:clamp(1.25rem, -21.25rem + 46.88vw, 35rem);
+    position: relative;
+    top:80px;
+    width:clamp(18rem, 11.6rem + 32vw, 50rem);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.formsending{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+.nameForm, .phoneForm   {
+    margin-top: 46px;
+    border-radius: 10 0 0 0;
+    border:0px;
+    background-color: rgba(246, 248, 250, 1);
+    height:64px;
+    width:clamp(18rem, 16.8rem + 6vw, 24rem);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 16px;
+}
+.inputDiv, .checkForm{
+    display: flex;
+}
+.agree{
+    margin-left: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.checkForm{
+    display: flex;
+    align-items:center;
+}
+.phoneForm{
+    margin-left: 30px;
+}
+.formSending{
+    width:clamp(18rem, 16.8rem + 6vw, 24rem);
+    background: rgba(42, 108, 234, 1);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    height:64px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.newForm{
+    display: flex;
+    justify-content: space-between;
+    width:clamp(18rem, 11.6rem + 32vw, 50rem);
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.footer{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    top:198px;
+    margin-bottom: 0px;
+    padding-bottom: 250px;
+}
+.main{
+    overflow: hidden;
+}
+.additInfo{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(94, 100, 106, 1);
+    padding-bottom: 24px;
+}
+.formSending:hover{
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .IconDiv{
+        width:clamp(18rem, -1.196rem + 95.98vw, 44.875rem);
+    }
+    .smallDots{
+        left:clamp(6.625rem, -3.375rem + 50vw, 20.625rem);
+    }
+    .otzivi, .otziviLeft, .otziviRight{
+        justify-content: center;
+    }
+    .niceP{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .man{
+        width: 351px;
+        height: 265px;
+
+    }
+}

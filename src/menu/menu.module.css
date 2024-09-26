@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.mdivx {
+    width: 25px;
+    height: 25px;
+    left:300px;
+    position: relative;
+    top:5px;
+  }
+  
+  .mdiv {
+    height: 25px;
+    width: 2px;
+    margin-left: 12px;
+    background-color: black;
+    transform: rotate(45deg);
+    Z-index: 1;
+  }
+  
+  .md {
+    height: 25px;
+    width: 2px;
+    background-color: black;
+    transform: rotate(90deg);
+    Z-index: 2;
+  }
+  .arrowRight{
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid rgba(194, 200, 205, 1);
+    border-right: 1px solid rgba(194, 200, 205, 1);
+    transform: rotate(45deg);
+    margin-right: 51px;
+    cursor: pointer;
+}
+.mainDiv{
+    position: absolute;
+    left:clamp(0rem, -15.625rem + 78.13vw, 21.875rem);
+    background: rgba(255, 255, 255, 1);
+    width: 375px;
+    height: 667px;
+    top:-10px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+.testLab{
+    width: 120px;
+    height: 24px;
+    top: 28px;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+.testLabP{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color:rgb(0, 0, 0)
+}
+.whiteC{
+    position: relative;
+    right: 10px;
+}
+.secontDiv{
+    border-top: 2px solid  rgba(236, 239, 242, 1);
+    border-bottom: 2px solid  rgba(236, 239, 242, 1);
+}
+.firstFont{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(131, 137, 143, 1);
+}
+.secontDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    height: 60px;
+    top:50px;
+    position: relative;
+    left:16px;
+    align-items: center;
+}
+.firstmenuDiv{
+    position: relative;
+    left:16px;
+    top:20px;
+}

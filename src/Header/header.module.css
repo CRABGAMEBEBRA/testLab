@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header{
+    background-color: rgb(115, 115, 255);
+    height: clamp(60rem, 57.333rem + 5.56vw, 64rem);
+    width: 100vw;
+}
+.testLab{
+    width: 120px;
+    height: 24px;
+    top: 28px;
+    left: 18.3vw;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+.testLabP{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color:white
+}
+.whiteC{
+    position: relative;
+    right: 10px;
+}
+.questions{
+    width: 464px;
+    height: 28px;
+    position: relative;
+    top: 4px;
+    left: 57vw;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.questionsP{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color:white;
+    cursor: pointer;
+}
+.questionsP:hover{
+    text-decoration: underline;
+}
+.headerDiv{
+    position: relative;
+    width: clamp(18rem, 12.25rem + 28.75vw, 46.75rem);
+    height: 178px;
+    top: 313px;
+    left: clamp(1.25rem, -5.825rem + 35.38vw, 36.625rem);
+}
+.headerWord1{
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    color:white;
+}
+.headerWord2{
+    position: relative;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color:white;
+    top:21px;
+}
+.headerWord3{
+    width: 251px;
+    height: 64px;
+    position: relative;
+    left: clamp(0.938rem, -1.987rem + 14.63vw, 15.563rem);
+    padding: 20px 40px 20px 40px;
+    border-radius: 4px;
+    background-color: white;
+    top:73px;
+    cursor: pointer;
+}
+.headerDivP{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    left:90vw;
+    top:35px;
+}
+@media (max-width: 768px) {
+    .header{
+        height:clamp(31.813rem, 8.821rem + 114.96vw, 64rem);
+    }
+    .testLab{
+        left:30px
+    }
+    .headerDiv{
+        top:clamp(3rem, -9.009rem + 60.04vw, 19.813rem);
+    }
+    .headerWord1{
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+@media (max-width: 375px) {
+    .headerWord1{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: center;}}
