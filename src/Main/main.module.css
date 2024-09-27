@@ -204,7 +204,7 @@
     position: relative;
     top:646px;
     width:clamp(18rem, 9rem + 45vw, 63rem);
-    height:clamp(49.5rem, 41.8rem + 38.5vw, 88rem);
+    height:clamp(49.5rem, 22rem + 137.5vw, 88rem);
     left:clamp(1.25rem, -16.917rem + 37.85vw, 28.5rem); 
 }
 .questionsAndAns{
@@ -235,6 +235,8 @@
     justify-content: center;
     display: flex;
     cursor: pointer;
+    margin-left: 50px;
+    min-width: 24px;
 }
 .miniquestionsPDiv{
     display: flex;
@@ -246,19 +248,20 @@
     border-top: rgba(246, 248, 250, 1) 2px solid;
 }
 .additionalKnow{
-    margin-top: 210px;
+    margin-top: 0px;
     background: rgba(246, 248, 250, 1);
-    display: flex;
-    justify-content: center;
+    top:200px;
+    position: relative;
 }
 .middleDiv{
     width:clamp(20rem, 8.8rem + 56vw, 76rem);
-    height:527px;
     margin-bottom: clamp(1.25rem, 0.663rem + 2.94vw, 4.188rem);
     padding-top: clamp(1.25rem, -0.75rem + 4.17vw, 4.25rem);
+    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: clamp(1.25rem, -12.583rem + 28.82vw, 22rem);
 }   
 .firstFont{
     font-family: Roboto;
@@ -284,7 +287,7 @@
 .form{
     left:clamp(1.25rem, -21.25rem + 46.88vw, 35rem);
     position: relative;
-    top:80px;
+    top:180px;
     width:clamp(18rem, 11.6rem + 32vw, 50rem);
     display: flex;
     align-items: center;
@@ -392,5 +395,38 @@
         width: 351px;
         height: 265px;
 
+    }
+}
+@media (max-width: 768px) {
+    .additionalKnow{
+        top:500px;  
+    }
+    .form{
+        top:580px;
+    }
+    .footer{
+        top:750px;
+    }
+}
+@media (max-width: 668px) {
+    .additionalKnow{
+        top:800px;  
+    }
+    .form{
+        top:980px;
+    }
+    .footer{
+        top:1050px;
+    }
+}
+@media (max-width: 500px) {
+    .additionalKnow{
+        top:1200px;  
+    }
+    .form{
+        top:1380px;
+    }
+    .footer{
+        top:1450px;
     }
 }
